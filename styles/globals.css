@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --yellow-color: rgb(233, 190, 89);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Newsreader', serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 26px;
+  margin: 0
+}
+
+h3 {
+  font-weight: 600;
+  margin: 0;
+  width: 95%;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none
+}
+
+button {
+  height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(233, 190, 89);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  text-shadow: 1px 1px 0px rgb(134, 131, 131)
+}

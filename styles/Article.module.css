@@ -1,0 +1,29 @@
+.articleContainer {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-bottom: 130px;
+}
+
+.articleHeader {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    border-bottom: 1px var(--yellow-color) solid;
+    margin: 15px 0;
+}
+
+.eyeIcon{
+    padding-right: 5px;
+}
+
+.bookmarkIcon, .eyeIcon {
+    cursor: pointer;
+}
+
+.bookmarkIcon:hover, .eyeIcon:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    padding: 10px 0 10px 10px;
+
+}
+
+.title {
+    margin: 30px;
+}
+
+.bookmarksContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}

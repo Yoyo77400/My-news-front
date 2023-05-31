@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Old London";
+    src: url('/fonts/Oldlondon.ttf');
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px var(--yellow-color) solid;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.title {
+    font-family: "Old London";
+    font-size: 40px
+}
+
+.userIcon {
+    font-size: 22px;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.linkContainer {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    color: var(--yellow-color);
+}
+
+.registerContainer {
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px lightgray solid;
+}
+
+.registerSection {
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout {
+    cursor: pointer;
+    color: var(--yellow-color);
+    padding-left: 10px;
+}
+
+.eyeIcon{
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    cursor: pointer;
+}
