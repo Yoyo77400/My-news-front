@@ -24,7 +24,7 @@ function Header() {
   const [signinPassword, setSigninPassword] = useState('');
 
   const handleSignup = () => {
-    fetch('https://my-news-front.vercel.app/users/signup', {
+    fetch('https://my-news-back-one.vercel.app/users/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -43,7 +43,7 @@ function Header() {
       });
   };
   const handleSignin = () => {
-    fetch('https://my-news-front.vercel.app/users/signin', {
+    fetch('https://my-news-back-one.vercel.app//users/signin', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
