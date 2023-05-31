@@ -19,7 +19,7 @@ function Article(props) {
       // si l'utilisateur n'est pas connecté, on ne fait rien et on sort de la fonction
       return;
     }
-    fetch(`http://localhost:3001/users/canBookmark/${user.token}`) // on vérifie si l'utilisateur peut ajouter un article en favoris
+    fetch(`https://my-news-back-one.vercel.app/users/canBookmark/${user.token}`) // on vérifie si l'utilisateur peut ajouter un article en favoris
       .then((res) => res.json())
       .then((data) => {
         if (data.result && data.canBookmark) {

@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     // On utilise le hook useEffect pour effectuer une requête au serveur au chargement de la page.
-    fetch('http://my-news-back-one.vercel.app/articles') // On utilise la méthode fetch pour effectuer une requête GET au serveur.
+    fetch('https://my-news-back-one.vercel.app/articles') // On utilise la méthode fetch pour effectuer une requête GET au serveur.
       .then((response) => response.json()) // On utilise la méthode json() pour transformer la réponse en objet JavaScript.
       .then((data) => {
         // On récupère les données et on les stocke dans le state.

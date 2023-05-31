@@ -16,7 +16,7 @@ function TopArticle(props) {
     if (!user.token) {
       return;
     }
-    fetch(`http://localhost:3001/users/canBookmark/${user.token}`)
+    fetch(`https://my-news-back-one.vercel.app/users/canBookmark/${user.token}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.result && data.canBookmark) {
